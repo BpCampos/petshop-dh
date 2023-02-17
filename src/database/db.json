@@ -1,0 +1,41 @@
+{
+    "services": [
+        {
+            "id": "624325bc-a7ea-45df-a2aa-3152648bf5d2",
+            "name": "Tosa",
+            "price": 90,
+            "image": "/img/1674779603201.jpg",
+            "description": "Tosa completa"
+        },
+        {
+            "id": "8bee3b83-b24d-44e1-a130-95ccc7d869f3",
+            "name": "Jogador",
+            "price": 1500,
+            "image": "/img/1674848492596.png",
+            "description": "Homenageia o rei pele sempre que possível"
+        },
+        {
+            "id": "cd39dcd4-8719-4303-b5f5-fe8db88984f7",
+            "name": "editado",
+            "price": 100,
+            "image": "/img/1675118965388.png",
+            "description": "eeeeeeeee"
+        }
+    ],
+    "users": [
+        {
+            "id": "b866cd8b-8581-4f42-afae-5a314f3c3cef",
+            "name": "uva",
+            "email": "uva@uva.com",
+            "password": "$2b$10$Bb00KAgjeH8Qc8LEif7nVerd39dUkIyLTsKqeTc.f8e4tm/n85fdS",
+            "isAdmin": false
+        },
+        {
+            "id": "570d3906-8071-4da8-b4ed-af73c59edf30",
+            "name": "bruno",
+            "email": "bruno@email.com",
+            "password": "$2b$10$XVd0g79GJgJ9FKAu8sfL5.LgN6NIP./iBKPP9iTzNqhEy73HAdzbe",
+            "isAdmin": false
+        }
+    ]
+}

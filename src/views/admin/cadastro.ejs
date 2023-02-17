@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title>PETSHOP DH</title>
+  </head>
+  <body>
+    <%- include("../components/header.ejs") %>
+
+    <main>
+      <form action="/admin/servicos/create" class="cadastro" method="POST" enctype="multipart/form-data">
+        <h1>Cadastrar</h1>
+        <div class="mb-3">
+          <label for="name">Nome</label>
+          <input type="text" name="name" class="form-control" placeholder="produto" />
+        </div>
+        <div class="mb-3">
+          <label for="price">Preço</label>
+          <input type="number" name="price" class="form-control" placeholder="0,00" step="0.01" />
+        </div>
+        <div class="mb-3">
+          <label for="image">Imagem</label>
+          <input type="file" name="image" id="file" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="description">Descrição</label>
+          <textarea name="description" class="form-text-area" cols="30" rows="7"></textarea>
+        </div>
+
+        <button type="submit" class="send">Enviar</button>
+      </form>
+    </main>
+    <%- include("../components/footer.ejs") %>
+  </body>
+</html>
